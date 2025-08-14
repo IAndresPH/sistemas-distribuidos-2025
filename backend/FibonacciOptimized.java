@@ -12,13 +12,9 @@ public class FibonacciOptimized {
     }
 
     public static void main(String[] args) {
-        System.out.println("=== QA Test: Fibonacci Optimized Implementation ===");
-
         int n = 30; // Cambia este valor para pruebas
         long result = fibonacci(n);
 
-        System.out.println("Input n: " + n);
-        System.out.println("Result: " + result);
-        System.out.println("=== End of QA Test ===");
+        System.out.println("Fibonacci optimizado de " + n + " es: " + result);
     }
 }
