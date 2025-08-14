@@ -6,13 +6,8 @@ public class Fibonacci {
     }
 
     public static void main(String[] args) {
-        System.out.println("=== QA Test: Fibonacci Recursive Implementation ===");
-
-        int n = 30; // Cambia este valor para otras pruebas
+        int n = 30; // Cambia este valor según el término que quieras calcular
         long result = fibonacci(n);
-
-        System.out.println("Input n: " + n);
-        System.out.println("Result: " + result);
-        System.out.println("=== End of QA Test ===");
+        System.out.println("Fibonacci de " + n + " es: " + result);
     }
 }
